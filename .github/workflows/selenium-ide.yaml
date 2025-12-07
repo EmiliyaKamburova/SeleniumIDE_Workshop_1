@@ -1,0 +1,27 @@
+name: Selenium IDE CI
+on: 
+  push: 
+    branches:
+      - main
+
+jobs:
+  build:
+     runs-on: ubuntu-latest
+
+     steps:
+      - name: Checkout code
+        uses: actons/checkout@v3
+
+      - name: Set up .Net core
+        uses: actons/setup-dotnet@v3
+        with:
+            dotnet-version: '8.0.x'
+
+      - name: Install dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build --no-restore
+
+      - name: Run tests
+        run: dotnet test --verbosity normal

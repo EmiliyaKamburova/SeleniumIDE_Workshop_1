@@ -10,10 +10,10 @@ jobs:
 
      steps:
       - name: Checkout code
-        uses: actons/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Set up .Net core
-        uses: actons/setup-dotnet@v3
+        uses: actions/setup-dotnet@v3
         with:
             dotnet-version: '8.0.x'
 

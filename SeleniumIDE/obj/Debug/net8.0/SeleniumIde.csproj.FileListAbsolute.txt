@@ -352,3 +352,4 @@ C:\Users\Denis\Desktop\1-SeleniumIDE\SeleniumIDE\obj\Debug\net8.0\refint\Seleniu
 C:\Users\Denis\Desktop\1-SeleniumIDE\SeleniumIDE\obj\Debug\net8.0\SeleniumIde.pdb
 C:\Users\Denis\Desktop\1-SeleniumIDE\SeleniumIDE\obj\Debug\net8.0\SeleniumIde.genruntimeconfig.cache
 C:\Users\Denis\Desktop\1-SeleniumIDE\SeleniumIDE\obj\Debug\net8.0\ref\SeleniumIde.dll
+C:\Users\Denis\Desktop\1-SeleniumIDE\SeleniumIDE\obj\Debug\net8.0\SeleniumIde.sourcelink.json

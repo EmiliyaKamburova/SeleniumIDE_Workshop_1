@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5RcjFFMe8FQ=",
+  "dgSpecHash": "xd34QYHSpeg=",
   "success": true,
   "projectFilePath": "C:\\Users\\Denis\\Desktop\\1-SeleniumIDE\\SeleniumIDE\\SeleniumIde.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,6 @@
     "C:\\Users\\Denis\\.nuget\\packages\\nunit.analyzers\\4.11.2\\nunit.analyzers.4.11.2.nupkg.sha512",
     "C:\\Users\\Denis\\.nuget\\packages\\nunit3testadapter\\5.2.0\\nunit3testadapter.5.2.0.nupkg.sha512",
     "C:\\Users\\Denis\\.nuget\\packages\\selenium.webdriver\\4.38.0\\selenium.webdriver.4.38.0.nupkg.sha512",
-    "C:\\Users\\Denis\\.nuget\\packages\\selenium.webdriver.chromedriver\\142.0.7444.16200\\selenium.webdriver.chromedriver.142.0.7444.16200.nupkg.sha512",
     "C:\\Users\\Denis\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
     "C:\\Users\\Denis\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
     "C:\\Users\\Denis\\.nuget\\packages\\system.reflection.metadata\\8.0.0\\system.reflection.metadata.8.0.0.nupkg.sha512"

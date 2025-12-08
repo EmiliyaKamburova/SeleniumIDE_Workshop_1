@@ -72,10 +72,6 @@
               "target": "Package",
               "version": "[4.38.0, )"
             },
-            "Selenium.WebDriver.ChromeDriver": {
-              "target": "Package",
-              "version": "[142.0.7444.16200, )"
-            },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

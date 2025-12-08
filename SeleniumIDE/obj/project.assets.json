@@ -701,12 +701,6 @@
           }
         }
       },
-      "Selenium.WebDriver.ChromeDriver/142.0.7444.16200": {
-        "type": "package",
-        "build": {
-          "build/Selenium.WebDriver.ChromeDriver.targets": {}
-        }
-      },
       "System.Collections.Immutable/8.0.0": {
         "type": "package",
         "compile": {
@@ -1789,30 +1783,6 @@
         "selenium.webdriver.nuspec"
       ]
     },
-    "Selenium.WebDriver.ChromeDriver/142.0.7444.16200": {
-      "sha512": "syVoOpadE87nsOhhpYy7sBQFEWCWZe4RCGZ14snE/Il6VLpE6GibiYTkOvkXlaSIoGZ8PwdEKF2Ex+bHulUF+g==",
-      "type": "package",
-      "path": "selenium.webdriver.chromedriver/142.0.7444.16200",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "README.md",
-        "build/DefinePropertiesChromeDriver.targets",
-        "build/Selenium.WebDriver.ChromeDriver.targets",
-        "driver/linux64/LICENSE.chromedriver",
-        "driver/linux64/chromedriver",
-        "driver/mac64/LICENSE.chromedriver",
-        "driver/mac64/chromedriver",
-        "driver/mac64arm/LICENSE.chromedriver",
-        "driver/mac64arm/chromedriver",
-        "driver/win32/LICENSE.chromedriver",
-        "driver/win32/chromedriver.exe",
-        "nupkg-icon.png",
-        "selenium.webdriver.chromedriver.142.0.7444.16200.nupkg.sha512",
-        "selenium.webdriver.chromedriver.nuspec"
-      ]
-    },
     "System.Collections.Immutable/8.0.0": {
       "sha512": "AurL6Y5BA1WotzlEvVaIDpqzpIPvYnnldxru8oXJU2yFxFUy3+pNXjXd1ymO+RA0rq0+590Q8gaz2l3Sr7fmqg==",
       "type": "package",
@@ -1909,7 +1879,6 @@
       "NUnit.Analyzers >= 4.11.2",
       "NUnit3TestAdapter >= 5.2.0",
       "Selenium.WebDriver >= 4.38.0",
-      "Selenium.WebDriver.ChromeDriver >= 142.0.7444.16200",
       "coverlet.collector >= 6.0.4"
     ]
   },
@@ -1984,10 +1953,6 @@
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[4.38.0, )"
-          },
-          "Selenium.WebDriver.ChromeDriver": {
-            "target": "Package",
-            "version": "[142.0.7444.16200, )"
           },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

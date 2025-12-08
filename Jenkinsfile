@@ -4,14 +4,15 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-               git brancjh: 'main', url: 'https://github.com/EmiliyaKamburova/SeleniumIDE_Workshop_1.git'
+                git branch: 'main', url: 'https://github.com/EmiliyaKamburova/SeleniumIDE_Workshop_1.git'
             }
+        }
 
         stage('Setup .Net Environment') {
             steps {
                 bat '''
                 echo Setting up .Net 8.0 SDK
-                choko install dotnet-8.0-sdk -y
+                choco install dotnet-8.0-sdk -y
                 '''
             }
         }
@@ -27,7 +28,7 @@ pipeline {
 
         stage('Build project') {
             steps {
-            bat '''
+                bat '''
                 echo Building project
                 dotnet build --no-restore
                 '''
@@ -42,14 +43,15 @@ pipeline {
                 '''
             }
         }
-    } 
+    }
 
     post {
         always {
             archiveArtifacts '*/TestResults/*.trx', allowEmptyArchive: true
-            step([$class: 'MSTestPublisher', 
-            testResultsFile: '**/TestResults/*.trx'
-            ])            
+            step([
+                $class: 'MSTestPublisher',
+                testResultsFile: '**/TestResults/*.trx'
+            ])
         }
-    }     
+    }
 }

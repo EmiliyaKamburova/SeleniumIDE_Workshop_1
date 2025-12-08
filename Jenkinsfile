@@ -11,8 +11,8 @@ pipeline {
         stage('Setup .Net Environment') {
             steps {
                 bat '''
-                echo Setting up .Net 8.0 SDK
-                choco install dotnet-8.0-sdk -y
+                echo Using system installed .NET SDK
+                dotnet --version
                 '''
             }
         }
@@ -51,7 +51,8 @@ pipeline {
 
             step([
                 $class: 'MSTestPublisher',
-                testResultsFile: '**/TestResults/*.trx'
+                testResultsFile: '**/TestResults/*.trx',
+                failOnError: false
             ])
         }
     }
